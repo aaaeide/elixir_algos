@@ -1,4 +1,8 @@
 defmodule LCS do
+  @moduledoc """
+  Code for solving the Longest Common Subsequence problem.
+  """
+
   def lcs_length(v, w), do: lcs_length(to_charlist(v), to_charlist(w), Map.new()) |> elem(0)
 
   # Base cases. s_{0,j} = s_{i,0} = 0.
