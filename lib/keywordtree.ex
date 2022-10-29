@@ -3,7 +3,6 @@ defmodule KeywordTree do
   Pattern matching using keyword trees.
   """
 
-  def construct_keyword_tree do
-    4
+  def construct_keyword_tree(patterns) do
   end
 end
